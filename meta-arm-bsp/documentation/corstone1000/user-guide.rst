@@ -1865,7 +1865,7 @@ Generate Keys, Signed Image and Unsigned Image
 
     .. code-block:: console
 
-        ./${WORKSPACE}/iot-platform-assets/corstone1000/secureboot/create_keys_and_sign.sh \
+        ${WORKSPACE}/iot-platform-assets/corstone1000/secureboot/create_keys_and_sign.sh \
         -d ${TARGET} \
         -v ${CERTIFICATE_VALIDITY_DURATION_IN_DAYS}
 
